@@ -1,0 +1,124 @@
+body { 
+    font-family: Arial; 
+    margin: 20px; 
+    background: #f4f6f8; 
+    color: #333; 
+}
+
+h1 {
+    text-align: center;
+}
+
+h2, h3 {
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background: #007bff;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Table specific buttons */
+table a.edit {
+    color: #007bff; /* Blue for Edit */
+    margin-right: 10px; /* spacing between Edit and Delete */
+}
+
+table a.delete {
+    color: #dc3545; /* Red for Delete */
+}
+
+/* Form and input styling */
+form {
+    max-width: 400px;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+
+    /* Buttons ke liye spacing */
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button[type="submit"] {
+    background: darkgreen;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button[routerlink], button.cancel {
+    background: #515d67;
+    color: white;
+}
+
+h3 {
+    color: #c82333;
+}
+
+button.delete {
+    background: #dc3545;
+    color: white;
+}
+
+button.add-person {
+    background-color: green;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.add-person:hover {
+    background-color: darkgreen;
+}
+
+/* Optional: agar Add aur Cancel buttons ko alag margin chahiye */
+button.add {
+    margin-right: 10px;
+}

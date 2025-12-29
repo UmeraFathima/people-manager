@@ -1,0 +1,8 @@
+<h2>Edit Person</h2>
+<form [formGroup]="form" (ngSubmit)="save()">
+  <label>Name:</label><br><input formControlName="name" required><br>
+  <label>Email:</label><br><input formControlName="email" required><br>
+  <label>Age:</label><br><input type="number" formControlName="age" required><br>
+  <button type="submit">Save</button>
+  <button type="button" routerLink="/">Cancel</button>
+</form>
